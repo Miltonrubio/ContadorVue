@@ -3,7 +3,7 @@
 
   export default {
     data: ()=>({
-      contador:10,
+      contador:500,
     }),
 
     methods:{
@@ -17,7 +17,7 @@
         this.contador=this.contador-1
       },
       resetear(){
-        this.contador=10;
+        this.contador=500;
       },
     }
   };
@@ -27,11 +27,11 @@
 
 
 <template>
-  <!--
+  
     <nav class="navbar navbar-light bg-light fixed-top">
   <span class="navbar-brand mb-0 h1">Milton Jair Rubio Juárez DMI 10 A </span>
   </nav>
--->
+
   <img src="./assets/logo.svg" alt="Logo VUE" width=" 125" height="125" class="fixed">
 
 
